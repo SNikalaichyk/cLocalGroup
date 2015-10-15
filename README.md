@@ -2,7 +2,9 @@
 
 The **cLocalGroup** module contains the **cLocalGroup** DSC resource that provides a mechanism to manage local groups.
 
-Unlike the [**Group**](https://technet.microsoft.com/en-us/library/dn282124.aspx) built-in DSC resource, the **cLocalGroup**  resource does not require the `Credential` property to add non-local accounts to the group. However, this is not guaranteed to work in all environments.
+Unlike the [**Group**](https://technet.microsoft.com/en-us/library/dn282124.aspx) built-in DSC resource, the **cLocalGroup** resource does not require the `Credential` property to add non-local accounts to the group. However, this is not guaranteed to work in all environments.
+
+You can also download this module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/cLocalGroup/).
 
 ## Resources
 
@@ -20,10 +22,14 @@ Unlike the [**Group**](https://technet.microsoft.com/en-us/library/dn282124.aspx
 
 ## Versions
 
+### 1.0.1 (October 15, 2015)
+
+* Minor update.
+
 ### 1.0.0 (October 5, 2015)
 
 * Initial release with the following resources:
-  - **cLocalGroup**
+  - **cLocalGroup**.
 
 ## Examples
 
